@@ -25,10 +25,11 @@ function App() {
         <Toolbar disableGutters>
           <Box  sx={{ display: 'flex' }}>
           <Typography variant="h6" sx={{ my: 2 }}>
+         
+          <Link to="/">Calculator</Link>
+
           </Typography>
-          <Button variant="contained"  href="/">
-Calculator   
-     </Button>
+
 
 
       <List  sx={{ display: 'flex' }}>
