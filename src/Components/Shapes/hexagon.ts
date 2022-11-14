@@ -1,6 +1,6 @@
-import { Shape } from "./Shape";
+import { Shape }  from "./shape";
 
-class CylinderModel implements Shape{
+class Hexagon implements Shape{
     diameter: number = 0;
     height: number = 0;
     threaded: boolean = false;
@@ -28,4 +28,4 @@ class CylinderModel implements Shape{
     }
 }
 
-export default CylinderModel;
+export default Hexagon;
